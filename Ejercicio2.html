@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>EP3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h3>EJERCICIO 2</h3>
+        <p>Imprimir los numero múltiplos de 7 comprendidos entre 100 y 300 con excepción de los comprendido entre 120 y 180.</p>
+        <div id="resultado">
+            <script>          
+                var i=105 //Primer multiplo de 7 que es mayor a 100
+                for (i; i<300; i=i+7) {
+
+                if (i<120 || i>180) { //Condición para que i no este en esos números
+                    document.write(i+ '<br>');                   
+                }
+                }               
+            </script>
+        </div>
+    </div>
+</body>
+</html>

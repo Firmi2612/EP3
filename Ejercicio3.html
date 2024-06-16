@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>EP3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h3>EJERCICIO 3</h3>
+        <p>Diseñar un programa que permita calcular los 4 primeros números pares para posteriormente calcular su media aritmética.</p>
+        <div id="resultado">
+            <script>          
+                var i=1
+                var suma=0
+                var cantPares=0
+                var media
+                while (cantPares<4) {
+                    if (i%2==0) {
+                        suma=suma+i
+                        cantPares++
+                    }
+                    i++
+                }
+                media=suma/4
+
+                document.write('La suma de los 4 primeros números pares es: '+suma+'<br>');
+                document.write('La media aritmética es: '+media);
+            </script>
+        </div>
+    </div>
+</body>
+</html>
